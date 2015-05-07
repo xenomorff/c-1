@@ -5,6 +5,6 @@
 
 main()
 { 
-  printf(BLUE"Hello\n"YELLOW"\nWorld");
+  printf(BLUE"Hello\n"YELLOW"World\n");
   
 }
