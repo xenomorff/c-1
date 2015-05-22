@@ -25,4 +25,9 @@
 #define CLEAR  " \033[H\033[2J "
 
 
+clear_screen()
+{
+  printf(CLEAR);
+}
+
 
