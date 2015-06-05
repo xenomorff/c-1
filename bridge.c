@@ -19,5 +19,5 @@ main()
   printf(PINK END);
   char* end = input(YELLOW">>"BASE3);
 
-  //if(strcmp)
+  //if (strcmp(name
 }
