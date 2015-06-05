@@ -9,8 +9,6 @@ getline (char s[], )
 }
 
 
-
-
 main ()
 {
   printf ("just testing\n");
