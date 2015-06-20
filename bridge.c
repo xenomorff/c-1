@@ -8,7 +8,7 @@
 
 char* ask(char* question) {
   char * answer;
-  printf(RED"%s\n"RESET,question);
+  printf(PINK"%s\n"RESET,question);
   answer = input(">> ");
   printf(RESET);
   return answer;
@@ -57,5 +57,17 @@ main()
         die();
       }
 
+  }
+
+  else if (strcmp(name,"arthur\n") == 0) {
+    char * answer =ask("mph?");
+    if(strcmp(answer,"7\n") == 0)
+      {
+        live();
+      }
+    else
+      {
+        die();
+      }
   }
 }
